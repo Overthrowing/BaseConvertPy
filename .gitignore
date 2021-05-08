@@ -1,2 +1,7 @@
 # Tests
 test.py
+
+# Distribution
+dist/
+build/
+baseconvertpy.egg-info/

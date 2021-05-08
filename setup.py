@@ -18,10 +18,9 @@ setup(
     url="https://github.com/realpython/reader",
     author="Siddharth",
     license="MIT",
+    keywords=["python", "base", "conversion", "number"],
     classifiers=[
-        "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.7",
     ],
     packages=["baseConvertPy"],
     include_package_data=True,
