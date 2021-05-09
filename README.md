@@ -10,22 +10,22 @@ An easy way to switch between bases in Python.
 
 #### Import
 
-`from baseconvertpy import *`
+`import baseconvertpy`
 
 #### Converting bases
 
 ```
-convert(<Number>, <New Base>, <Original Base (Default is 10)>, <Charset (Default is characters for up to base 62)>)
+baseconvertpy.convert(<Number>, <New Base>, <Original Base (Default is 10)>, <Charset (Default is characters for up to base 62)>)
 ```
 
 #### Converting from base 10 to base X
 
 ```
-to_baseX(<Number in base 10>, <New Base>, <Charset (Default is characters for up to base 62)>)
+baseconvertpy.to_baseX(<Number in base 10>, <New Base>, <Charset (Default is characters for up to base 62)>)
 ```
 
 #### Converting from base X to base 10
 
 ```
-to_base10(<Number in base X>, <Original Base>, <Charset (Default is characters for up to base 62)>)
+baseconvertpy.to_base10(<Number in base X>, <Original Base>, <Charset (Default is characters for up to base 62)>)
 ```
