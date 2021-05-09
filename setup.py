@@ -11,11 +11,11 @@ README = (HERE / "README.md").read_text()
 # This call to setup() does all the work
 setup(
     name="baseconvertpy",
-    version="1.0.0",
+    version="1.0.1",
     description="A simple way to convert numbers from one base to another.",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/realpython/reader",
+    url="https://github.com/Siddharth3141/BaseConvertPy",
     author="Siddharth",
     license="MIT",
     keywords=["python", "base", "conversion", "number"],

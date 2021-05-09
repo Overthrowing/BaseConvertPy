@@ -4,6 +4,10 @@ An easy way to switch between bases in Python.
 
 # Usage
 
+#### Install
+
+`pip install baseconvertpy`
+
 #### Import
 
 `from baseconvertpy import *`
